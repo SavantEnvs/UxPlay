@@ -1,0 +1,9 @@
+project: savantenvs/UxPlay
+target: fuzz_mirror
+cmds:
+  - cmd: /mayhem/fuzz_mirror
+    libfuzzer: true
+    timeout: 10
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_mirror/testsuite

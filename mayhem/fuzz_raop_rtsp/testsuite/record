@@ -1,0 +1,6 @@
+RECORD rtsp://127.0.0.1/1234 RTSP/1.0
+CSeq: 16
+User-Agent: AirPlay/690.7.1
+DACP-ID: 1A2B3C4D5E6F7788
+Active-Remote: 123456789
+

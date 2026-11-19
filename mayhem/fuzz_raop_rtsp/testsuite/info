@@ -1,0 +1,6 @@
+GET /info RTSP/1.0
+CSeq: 1
+User-Agent: AirPlay/690.7.1
+DACP-ID: 1A2B3C4D5E6F7788
+Active-Remote: 123456789
+
